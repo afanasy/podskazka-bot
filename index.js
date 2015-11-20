@@ -100,10 +100,12 @@ function processUpdate(update) {
 
 
 function getRandomQuote () {
+  var key = _.sample(_.keys(proverbs))
+  var separator = key === ',' ? ', ' : ' - '
   return [
-    _.sample(_.sample(proverbs).left),
-    _.sample(_.sample(proverbs).right),
-  ].join(' ')
+    _.sample(proverbs[key].left),
+    _.sample(proverbs[key].right),
+  ].join(separator)
 }
 
 
