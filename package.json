@@ -20,7 +20,7 @@
   "homepage": "https://github.com/akura-co/podskazka-bot",
   "podskazka-bot": {
     "url": "https://api.telegram.org/bot",
-    "setWebhook": "https://akura.co/podskazkaBot/quoteBot/hook",
+    "setWebhook": "https://akura.co/telegram/podskazkaBot/hook",
     "delimiter": [
       " - ",
       ", "
