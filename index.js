@@ -29,13 +29,7 @@ module.exports = function (d) {
   return function (req, res) {
     var delimiter = _.sample(config.delimiter)
     var text = _.sample(dict[delimiter].left) + delimiter + _.sample(dict[delimiter].right)
-    console.log(req.body)
-    request({url: config.url + config.token + '/sendMessage', qs: {chat_id: req.body.message.chat.id, reply_to_message_id: req.body.message.message_id, text: text}}, function (err) {
-      if (err)
-        console.log(err)
-      else
-        console.log('sendMessage ok', text)
-    })
-    res.end()
+    console.log(req.body, text)
+    res.json({method: 'sendMessage', chat_id: req.body.message.chat.id, text: text})
   }
 }

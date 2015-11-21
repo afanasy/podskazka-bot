@@ -1,6 +1,6 @@
 {
   "name": "podskazka-bot",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Telegram @PodskazkaBot",
   "scripts": {
     "test": "node test"
