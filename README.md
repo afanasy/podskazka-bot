@@ -1,1 +1,1 @@
-Try chatting with [@PodskazakBot](https://telegram.me/PodskazkaBot) on [Telegram](https://telegram.org/)
+Try chatting with [@PodskazkaBot](https://telegram.me/PodskazkaBot) on [Telegram](https://telegram.org/)
