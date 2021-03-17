@@ -2,9 +2,6 @@
   "name": "podskazka-bot",
   "version": "1.1.5",
   "description": "Telegram @PodskazkaBot",
-  "scripts": {
-    "test": "node test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/akura-co/podskazka-bot.git"
@@ -19,8 +16,6 @@
   },
   "homepage": "https://github.com/akura-co/podskazka-bot",
   "podskazka-bot": {
-    "url": "https://api.telegram.org/bot",
-    "setWebhook": "https://akura.co/telegram/podskazka-bot/hook",
     "delimiter": [
       " - ",
       ", "
@@ -174,8 +169,6 @@
     ]
   },
   "dependencies": {
-    "underscore": "1.8.3",
-    "request": "2.67.0",
-    "solid-config": "1.3.0"
+    "underscore": "1.12.1"
   }
 }
